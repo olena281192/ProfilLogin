@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85211825488C068D79E7A47A /* Pods_RokoBitTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EFE0E1ADBFE614B3A154170 /* Pods_RokoBitTest.framework */; };
+		A8B5052D2133F5BA00B43F69 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B5052C2133F5BA00B43F69 /* CoreDataManager.swift */; };
+		A8B5052F2133F5EB00B43F69 /* MagicalRecord.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B5052E2133F5EB00B43F69 /* MagicalRecord.framework */; };
+		A8B5056F21340F5500B43F69 /* Profile+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B5056D21340F5500B43F69 /* Profile+CoreDataClass.swift */; };
+		A8B5057021340F5500B43F69 /* Profile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B5056E21340F5500B43F69 /* Profile+CoreDataProperties.swift */; };
+		CE6174A121305682001E4C72 /* DetaillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6174A021305682001E4C72 /* DetaillViewController.swift */; };
+		CE91227F21331D620022D97D /* RokoBitTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE91227D21331D620022D97D /* RokoBitTest.xcdatamodeld */; };
+		CECD475C212E60FD00D398A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD475B212E60FD00D398A2 /* AppDelegate.swift */; };
+		CECD475E212E60FD00D398A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD475D212E60FD00D398A2 /* LoginViewController.swift */; };
+		CECD4761212E60FD00D398A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD475F212E60FD00D398A2 /* Main.storyboard */; };
+		CECD4763212E60FD00D398A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CECD4762212E60FD00D398A2 /* Assets.xcassets */; };
+		CECD4766212E60FD00D398A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CECD4764212E60FD00D398A2 /* LaunchScreen.storyboard */; };
+		CECD4770212F2CE800D398A2 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD476F212F2CE800D398A2 /* JSONParser.swift */; };
+		CECD4772212F309900D398A2 /* NeyworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD4771212F309900D398A2 /* NeyworkManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EFE0E1ADBFE614B3A154170 /* Pods_RokoBitTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RokoBitTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54151499CFE5276137BC05BC /* Pods-RokoBitTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RokoBitTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RokoBitTest/Pods-RokoBitTest.debug.xcconfig"; sourceTree = "<group>"; };
+		A8B5052C2133F5BA00B43F69 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		A8B5052E2133F5EB00B43F69 /* MagicalRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MagicalRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8B5056D21340F5500B43F69 /* Profile+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataClass.swift"; sourceTree = "<group>"; };
+		A8B5056E21340F5500B43F69 /* Profile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Profile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CE6174A021305682001E4C72 /* DetaillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetaillViewController.swift; sourceTree = "<group>"; };
+		CE91227E21331D620022D97D /* RokoBitTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RokoBitTest.xcdatamodel; sourceTree = "<group>"; };
+		CECD4758212E60FD00D398A2 /* RokoBitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RokoBitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECD475B212E60FD00D398A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CECD475D212E60FD00D398A2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CECD4760212E60FD00D398A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CECD4762212E60FD00D398A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CECD4765212E60FD00D398A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CECD4767212E60FD00D398A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CECD476F212F2CE800D398A2 /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		CECD4771212F309900D398A2 /* NeyworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeyworkManager.swift; sourceTree = "<group>"; };
+		F939A7E068CCE49A42C7DBA2 /* Pods-RokoBitTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RokoBitTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RokoBitTest/Pods-RokoBitTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CECD4755212E60FD00D398A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B5052F2133F5EB00B43F69 /* MagicalRecord.framework in Frameworks */,
+				85211825488C068D79E7A47A /* Pods_RokoBitTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76090D8A824A7E8ACE20CE0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54151499CFE5276137BC05BC /* Pods-RokoBitTest.debug.xcconfig */,
+				F939A7E068CCE49A42C7DBA2 /* Pods-RokoBitTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86BDB5B52D7C50B79D39485B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8B5052E2133F5EB00B43F69 /* MagicalRecord.framework */,
+				1EFE0E1ADBFE614B3A154170 /* Pods_RokoBitTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A8B505282133F53B00B43F69 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CECD476F212F2CE800D398A2 /* JSONParser.swift */,
+				CECD4771212F309900D398A2 /* NeyworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A8B505292133F55E00B43F69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A8B5056D21340F5500B43F69 /* Profile+CoreDataClass.swift */,
+				A8B5056E21340F5500B43F69 /* Profile+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A8B5052A2133F57A00B43F69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CE6174A021305682001E4C72 /* DetaillViewController.swift */,
+				CECD475D212E60FD00D398A2 /* LoginViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8B5052B2133F59A00B43F69 /* CoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				A8B5052C2133F5BA00B43F69 /* CoreDataManager.swift */,
+			);
+			path = CoreDataManager;
+			sourceTree = "<group>";
+		};
+		CECD474F212E60FD00D398A2 = {
+			isa = PBXGroup;
+			children = (
+				CECD475A212E60FD00D398A2 /* RokoBitTest */,
+				CECD4759212E60FD00D398A2 /* Products */,
+				76090D8A824A7E8ACE20CE0D /* Pods */,
+				86BDB5B52D7C50B79D39485B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CECD4759212E60FD00D398A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CECD4758212E60FD00D398A2 /* RokoBitTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CECD475A212E60FD00D398A2 /* RokoBitTest */ = {
+			isa = PBXGroup;
+			children = (
+				CECD475B212E60FD00D398A2 /* AppDelegate.swift */,
+				A8B5052B2133F59A00B43F69 /* CoreDataManager */,
+				A8B5052A2133F57A00B43F69 /* ViewControllers */,
+				A8B505292133F55E00B43F69 /* Models */,
+				A8B505282133F53B00B43F69 /* Network */,
+				CE91227D21331D620022D97D /* RokoBitTest.xcdatamodeld */,
+				CECD475F212E60FD00D398A2 /* Main.storyboard */,
+				CECD4762212E60FD00D398A2 /* Assets.xcassets */,
+				CECD4764212E60FD00D398A2 /* LaunchScreen.storyboard */,
+				CECD4767212E60FD00D398A2 /* Info.plist */,
+			);
+			path = RokoBitTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CECD4757212E60FD00D398A2 /* RokoBitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CECD476A212E60FD00D398A2 /* Build configuration list for PBXNativeTarget "RokoBitTest" */;
+			buildPhases = (
+				3F33AE2D896EBA74A36E11B1 /* [CP] Check Pods Manifest.lock */,
+				CECD4754212E60FD00D398A2 /* Sources */,
+				CECD4755212E60FD00D398A2 /* Frameworks */,
+				CECD4756212E60FD00D398A2 /* Resources */,
+				0747F787EDE0A014D917AD73 /* [CP] Embed Pods Frameworks */,
+				F8E5A166C79A51602B6C7961 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RokoBitTest;
+			productName = RokoBitTest;
+			productReference = CECD4758212E60FD00D398A2 /* RokoBitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CECD4750212E60FD00D398A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = User;
+				TargetAttributes = {
+					CECD4757212E60FD00D398A2 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CECD4753212E60FD00D398A2 /* Build configuration list for PBXProject "RokoBitTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CECD474F212E60FD00D398A2;
+			productRefGroup = CECD4759212E60FD00D398A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CECD4757212E60FD00D398A2 /* RokoBitTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CECD4756212E60FD00D398A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CECD4766212E60FD00D398A2 /* LaunchScreen.storyboard in Resources */,
+				CECD4763212E60FD00D398A2 /* Assets.xcassets in Resources */,
+				CECD4761212E60FD00D398A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0747F787EDE0A014D917AD73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RokoBitTest/Pods-RokoBitTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RokoBitTest/Pods-RokoBitTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F33AE2D896EBA74A36E11B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RokoBitTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8E5A166C79A51602B6C7961 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RokoBitTest/Pods-RokoBitTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CECD4754212E60FD00D398A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8B5056F21340F5500B43F69 /* Profile+CoreDataClass.swift in Sources */,
+				CECD475E212E60FD00D398A2 /* LoginViewController.swift in Sources */,
+				CE91227F21331D620022D97D /* RokoBitTest.xcdatamodeld in Sources */,
+				CECD4770212F2CE800D398A2 /* JSONParser.swift in Sources */,
+				CECD475C212E60FD00D398A2 /* AppDelegate.swift in Sources */,
+				A8B5057021340F5500B43F69 /* Profile+CoreDataProperties.swift in Sources */,
+				A8B5052D2133F5BA00B43F69 /* CoreDataManager.swift in Sources */,
+				CE6174A121305682001E4C72 /* DetaillViewController.swift in Sources */,
+				CECD4772212F309900D398A2 /* NeyworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CECD475F212E60FD00D398A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECD4760212E60FD00D398A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CECD4764212E60FD00D398A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CECD4765212E60FD00D398A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CECD4768212E60FD00D398A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CECD4769212E60FD00D398A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CECD476B212E60FD00D398A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54151499CFE5276137BC05BC /* Pods-RokoBitTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokoBitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olena1.RokoBitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CECD476C212E60FD00D398A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F939A7E068CCE49A42C7DBA2 /* Pods-RokoBitTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RokoBitTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = olena1.RokoBitTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CECD4753212E60FD00D398A2 /* Build configuration list for PBXProject "RokoBitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD4768212E60FD00D398A2 /* Debug */,
+				CECD4769212E60FD00D398A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CECD476A212E60FD00D398A2 /* Build configuration list for PBXNativeTarget "RokoBitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CECD476B212E60FD00D398A2 /* Debug */,
+				CECD476C212E60FD00D398A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE91227D21331D620022D97D /* RokoBitTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE91227E21331D620022D97D /* RokoBitTest.xcdatamodel */,
+			);
+			currentVersion = CE91227E21331D620022D97D /* RokoBitTest.xcdatamodel */;
+			path = RokoBitTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CECD4750212E60FD00D398A2 /* Project object */;
+}
