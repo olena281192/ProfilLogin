@@ -12,8 +12,8 @@ import Alamofire
 class NetworkManager {
     
     static var shared = NetworkManager()
-   
     
+    // Login user
     func loginUser(login: String, password: String, completion: @escaping (_ user: Profile?,_ error: Error?) -> ()) {
         guard let url = createUrl(login: login, password: password) else { return completion(nil, NSError()) }
         Alamofire.request(url, method: .get, parameters: nil, encoding: URLEncoding.httpBody, headers: nil).responseJSON { response in
